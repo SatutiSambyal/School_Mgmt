@@ -1,3 +1,5 @@
 # dependencies
 /database mongoDb
 /frontend
+/node_modules
+/server
