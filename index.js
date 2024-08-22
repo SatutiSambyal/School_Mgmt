@@ -16,7 +16,7 @@ app.use(cors());
 
 
 // Connect to MongoDB
-mongoose.connect('mongodb://localhost/school-management', { useNewUrlParser: true, useUnifiedTopology: true })
+mongoose.connect('mongodb+srv://Schoolmgmt:02J6md0xXbadgb2G@cluster0.h9ncona.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0', { useNewUrlParser: true, useUnifiedTopology: true })
   .then(() => console.log('MongoDB connected'))
   .catch(err => console.error('MongoDB connection error:', err));
 
