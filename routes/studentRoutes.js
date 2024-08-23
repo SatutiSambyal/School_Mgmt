@@ -1,6 +1,6 @@
 const express = require('express');
 const router = express.Router();
-const Student = require('../models/Student'); // Import the Student model
+const Student = require('./models/Student'); // Import the Student model
 
 // Function to generate a unique student ID
 function generateStudentId() {
