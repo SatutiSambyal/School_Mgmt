@@ -1,5 +1,5 @@
 const express = require('express');
-const Marks = require('./models/Marks');
+const Marks = require('../models/Marks');
 const router = express.Router();
 
 // Add marks
